@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Perspective Transformation",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "OpenCV_Tutorial/Image_Processing/Geometric_Transformations/Perspective_Transformation_of_Images.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "justMyCode": true
+      // "module": "OpenCV_Tutorial.Image_Processing.Geometric_Transformations.Perspective_Transformation_of_Images"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-from Utils import show
+from Utils.Utils import show
 
 img = cv.imread("starry_night.jpg")
 assert img is not None, "file could not be read, check with os.path.exists()"

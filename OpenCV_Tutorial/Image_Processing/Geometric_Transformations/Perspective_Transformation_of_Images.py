@@ -1,6 +1,25 @@
+import os, sys
+
+print("CWD:", os.getcwd())
+print("Paths:", sys.path[:2])
+print("Dir:", os.listdir(os.getcwd()))
+
+
+# print()
+# print("cwd path:", os.getcwd())
+# import sys
+
+# print()
+# print("other path:", sys.path)
+# print()
+
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(__file__))))
+
 import cv2 as cv
 import numpy as np
-from Utils import show
+
+# from OpenCV_Tutorial.Utils.Utils import show
+from OpenCV_Tutorial.Utils.Utils import show
 
 # To find this transformation matrix,
 # you need 4 points on the input image and
@@ -10,7 +29,7 @@ from Utils import show
 
 # Straight lines will remain straight even after the transformation
 
-img = cv.imread("sudoku.jpg")
+img = cv.imread("../../Recources/sudoku.jpg")
 assert img is not None, "file could not be read, check with os.path.exists()"
 rows, cols, ch = img.shape
 
