@@ -1,6 +1,6 @@
 import cv2 as cv
 import numpy as np
-from Utils.Utils import show
+from Utils import show
 
 
 # highly useful while extracting any part of the image

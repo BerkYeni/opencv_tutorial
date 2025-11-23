@@ -1,7 +1,7 @@
 import cv2 as cv
-from Utils.Utils import show
+from Utils import show
 
-img = cv.imread("starry_night.jpg")
+img = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
 assert img is not None, "file could not be read, check with os.path.exists()"
 show(img)
 

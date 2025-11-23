@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread("starry_night.jpg", cv.IMREAD_GRAYSCALE)
+img = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg", cv.IMREAD_GRAYSCALE)
 assert img is not None, "file could not be read, check with os.path.exists()"
 rows, cols = img.shape
 
