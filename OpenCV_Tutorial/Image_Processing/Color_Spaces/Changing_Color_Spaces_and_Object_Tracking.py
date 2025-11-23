@@ -8,6 +8,15 @@ import numpy as np
 
 cap = cv.VideoCapture(0)
 
+
+def nothing(x):
+    pass
+
+
+img = np.zeros((300, 512, 3), np.uint8)
+cv.namedWindow("Image")
+
+
 while 1:
 
     # Take each frame
