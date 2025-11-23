@@ -1,7 +1,8 @@
 import cv2 as cv
 import numpy as np
 
-img1 = cv.imread("starry_night.jpg")
+img = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
+assert img is not None, "file could not be read, check with os.path.exists()"
 
 # Addition
 x = np.uint8([250])
@@ -23,7 +24,6 @@ print(numpy_addition)
 # w between 0 and 1,
 # result = img1*(1 - w) + img2*w
 
-img = cv.imread("starry_night.jpg")
 
 img1 = img[50:300, 0:240]
 img2 = img[50:300, 240:480]

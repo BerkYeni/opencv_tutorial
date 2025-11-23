@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread("starry_night.jpg")
+img = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
 print(img)
 
 pixel = img[100, 100]

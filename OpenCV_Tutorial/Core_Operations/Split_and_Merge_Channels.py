@@ -1,7 +1,7 @@
 import numpy as np
 import cv2 as cv
 
-img = cv.imread("starry_night.jpg")
+img = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
 
 b, g, r = cv.split(img)  # this is costly, use the method below (numpy indexing)
 # or

@@ -3,7 +3,7 @@ import numpy as np
 
 BLUE = [255, 0, 0]
 
-img1 = cv.imread("starry_night.jpg")
+img1 = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
 assert img1 is not None, "file could not be read, check with os.path.exists()"
 
 replicate = cv.copyMakeBorder(img1, 10, 10, 10, 10, cv.BORDER_REPLICATE)

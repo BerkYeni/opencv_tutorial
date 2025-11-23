@@ -12,7 +12,7 @@ print(duration_in_seconds)
 
 
 # practical example
-img1 = cv.imread("starry_night.jpg")
+img1 = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
 assert img1 is not None, "file could not be read, check with os.path.exists()"
 
 e1 = cv.getTickCount()

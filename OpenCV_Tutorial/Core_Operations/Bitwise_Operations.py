@@ -8,8 +8,8 @@ from Utils import show
 
 
 # adding logo on top of image
-img = cv.imread("starry_night.jpg")
-logo = cv.imread("OpenCV_Logo_with_text.png")
+img = cv.imread("OpenCV_Tutorial/Resources/starry_night.jpg")
+logo = cv.imread("OpenCV_Tutorial/Resources/OpenCV_Logo_with_text.png")
 
 
 show(logo)
